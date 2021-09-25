@@ -47,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C266C5E26FF862D0023FBA1 /* Childs */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE50C126FDCE6F0007DC12 /* HomeViewController.swift */,
+				8CAE50C326FDCE760007DC12 /* SearchViewController.swift */,
+				8C266C3826FF07900023FBA1 /* CenterViewController.swift */,
+				8CAE50C526FDCE840007DC12 /* NotificationViewController.swift */,
+				8CAE50C726FDCE8C0007DC12 /* MessageViewController.swift */,
+			);
+			path = Childs;
+			sourceTree = "<group>";
+		};
+		8C266C5F26FF86370023FBA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8CAE50C926FDFB7F0007DC12 /* UIView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		8CAE509F26FDCC2B0007DC12 = {
 			isa = PBXGroup;
 			children = (
@@ -71,13 +91,9 @@
 				8CAE50B626FDCC2C0007DC12 /* LaunchScreen.storyboard */,
 				8CAE50B926FDCC2C0007DC12 /* Info.plist */,
 				8CAE50BF26FDCE020007DC12 /* TabBarViewController.swift */,
-				8CAE50C126FDCE6F0007DC12 /* HomeViewController.swift */,
-				8CAE50C326FDCE760007DC12 /* SearchViewController.swift */,
-				8C266C3826FF07900023FBA1 /* CenterViewController.swift */,
-				8CAE50C526FDCE840007DC12 /* NotificationViewController.swift */,
-				8CAE50C726FDCE8C0007DC12 /* MessageViewController.swift */,
-				8CAE50C926FDFB7F0007DC12 /* UIView+.swift */,
 				8CAE50CB26FEB1520007DC12 /* CustomTabBar.swift */,
+				8C266C5E26FF862D0023FBA1 /* Childs */,
+				8C266C5F26FF86370023FBA1 /* Extension */,
 			);
 			path = TabBarAnimation;
 			sourceTree = "<group>";
